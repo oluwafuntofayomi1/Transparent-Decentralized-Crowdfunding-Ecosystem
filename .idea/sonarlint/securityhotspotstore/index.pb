@@ -3,3 +3,5 @@
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 Q
 !contracts/project-management.clar,b/c/bc56a5ed3afeae6040396ef037021ca8e193f5a2
+P
+ tests/project-management.test.ts,d/7/d7ebb6a70d3cd0efe8ec38a2000aa37453e82df9
