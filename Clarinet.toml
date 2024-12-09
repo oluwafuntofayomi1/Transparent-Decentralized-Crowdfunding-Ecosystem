@@ -1,0 +1,29 @@
+[project]
+name = 'Transparent-Decentralized-Crowdfunding-Ecosystem'
+description = ''
+authors = []
+telemetry = true
+cache_dir = './.cache'
+requirements = []
+[contracts.milestone-management]
+path = 'contracts/milestone-management.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.project-management]
+path = 'contracts/project-management.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.token-management]
+path = 'contracts/token-management.clar'
+clarity_version = 2
+epoch = 2.5
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
