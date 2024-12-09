@@ -9,3 +9,5 @@ O
 contracts/token-management.clar,f/b/fb1e2fc06ab8ebf4a886c461d66c20f9cf785482
 N
 tests/token-management.test.ts,4/f/4f4e3b96661413204827ef3d59a2709dc9a3d73c
+S
+#contracts/milestone-management.clar,6/c/6c0a3f900c4b4520687aa8cd12756ceb01c015e0
