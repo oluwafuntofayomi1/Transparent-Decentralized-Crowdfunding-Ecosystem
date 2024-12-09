@@ -7,3 +7,5 @@ P
  tests/project-management.test.ts,d/7/d7ebb6a70d3cd0efe8ec38a2000aa37453e82df9
 O
 contracts/token-management.clar,f/b/fb1e2fc06ab8ebf4a886c461d66c20f9cf785482
+N
+tests/token-management.test.ts,4/f/4f4e3b96661413204827ef3d59a2709dc9a3d73c
