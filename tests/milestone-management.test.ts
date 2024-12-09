@@ -69,11 +69,11 @@ describe('Milestone Management Contract', () => {
     projectMilestones[0] = 2;
     
     mockContractCall.mockImplementation((_, __, projectId) => {
-      return { success: true, value: { milestone-count: projectMilestones[projectId] } };
+      return { success: true, value: { milestoneCount: projectMilestones[projectId] } };
     });
     
     const result = mockContractCall('milestone-management', 'get-project-milestones', 0);
-    expect(result).toEqual({ success: true, value: { milestone-count: 2 } });
+    expect(result).toEqual({ success: true, value: { milestoneCount: 2 } });
   });
 });
 
